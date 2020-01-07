@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LaCroix</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--   Refresh the page every 3 minutes. This is set in seconds. :/   -->
+    <!--      <meta http-equiv="refresh" content="180"> -->
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!--  jquery cause im lazy, yall    -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <div id="screencap" class="new-flavor-container">
+      <img
+        crossorigin
+        src="https://cdn.glitch.com/e671aff0-b64f-4c52-98e5-3dc52f2d9952%2FLa_croix_(logo).svg"
+        class="logo"
+      />
+
+      <div class="name-display" id="name-display"></div>
+    </div>
+
+    <div>
+      <button id="generate-name-btn" class="generate-name-btn">
+        Something else, please.
+      </button>
+      <button id="funky-outoput" class="waamax-name-btn">
+        Make it even funky.
+      </button>
+      <br />
+    </div>
+
+    <footer>
+      📸
+      <a id="screencap-btn" class="screencap-btn" href="#">Save this flavor!</a
+      ><br />The LaCroix logo is property of
+      <a href="https://www.lacroixwater.com">LaCroix Water</a>. Made with
+      <a href="https://glitch.com/">Glitch</a>🎏
+    </footer>
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
